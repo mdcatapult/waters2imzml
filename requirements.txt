@@ -1,0 +1,4 @@
+chardet==5.2.0
+pyimzML==1.5.3
+pyteomics==4.7.2
+
