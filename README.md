@@ -12,6 +12,10 @@ This script converts Waters raw data files to imzML format using ProteoWizard (t
 - pyteomics==4.7.2
 - ProteoWizard (installed as a Docker container)
 
+## Cite
+
+Nastase, A.M., waters2imzml, 10.5281/zenodo.13951708 
+
 ## Usage
 
 1. Install the required Python libraries:
