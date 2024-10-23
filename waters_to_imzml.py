@@ -214,13 +214,7 @@ def run_conversion(raw_data_folder, nid, pmode):
         gc.collect()
 
 if __name__== '__main__':
-    # convert to mzmlb using proteowizard
-    # # check if spaces in names. replace with _
-
-    raw_data_folder = input('Path to folder containing raw Waters datasets:')
-    pmode = input('Input polarity positive/negative:')
-    nid = int(input('Position of id in file name:'))
-    run_conversion(raw_data_folder,nid,pmode)
+   
    
     #  need to have docker desktop running
     docker_command = "docker run -d -p 8080:80 nginx"
