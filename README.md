@@ -31,8 +31,14 @@ Nastase, A.M., waters2imzml, 10.5281/zenodo.13951708
     ```
 
 4. Follow the prompts to provide the path to the folder containing the raw Waters datasets, the polarity (positive or negative), and the position of the ID in the file name.
-
-5. The script will convert each raw file to mzMLb format using ProteoWizard and then convert it to imzML format using pyteomics and pyimzml libraries. The converted imzML files will be saved in the 'imzml' folder within the raw data folder.
+    ```
+    Path to folder containing raw Waters datasets: /path/to/folder
+    Input polarity positive/negative: positive
+    Position of id in file name: 7
+    ```
+5. The name of the folders containing the raw data should not have spaces and should be separated by '_'. The folder name should contain SAMPLE_idnumber.
+   
+6. The script will convert each raw file to mzMLb format using ProteoWizard and then convert it to imzML format using pyteomics and pyimzml libraries. The converted imzML files will be saved in the 'imzml' folder within the raw data folder.
 
 
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
