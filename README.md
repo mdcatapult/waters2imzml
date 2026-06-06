@@ -1,8 +1,7 @@
 # waters2imzml
 
-# Waters to imzML Converter
 
-This script converts Waters raw data files to imzML format using ProteoWizard (through Docker). It takes a folder containing raw Waters datasets as input and converts each raw file to mzMLb format using ProteoWizard. Then, it extracts the x and y coordinates from the .inf file associated with each raw file and converts the mzMLb file to imzML format using pyteomics and pyimzml libraries.
+waters2imzml: This script converts Waters raw data files to imzML format using ProteoWizard (through Docker). It takes a folder containing raw Waters datasets as input and converts each raw file to mzMLb format using ProteoWizard. Then, it extracts the x and y coordinates from the .inf file associated with each raw file and converts the mzMLb file to imzML format using pyteomics and pyimzml libraries.
 
 ## Requirements
 
@@ -41,13 +40,16 @@ Nastase, A.M., waters2imzml, 10.5281/zenodo.13951708
 6. The script will convert each raw file to mzMLb format using ProteoWizard and then convert it to imzML format using pyteomics and pyimzml libraries. The converted imzML files will be saved in the 'imzml' folder within the raw data folder.
 
 
-Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+Shield: [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
 This work is licensed under a
-[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+[Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License][cc-by-nc-nd].
 
-[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-image]][cc-by-nc-nd]
 
+[cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
+[cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
+[cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
 [cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
 [cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
