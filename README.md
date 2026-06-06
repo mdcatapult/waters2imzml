@@ -1,7 +1,8 @@
-# waters2imzml
+# Note: This repository is not actively maintained. For the latest version, please contact the author.
 
 
 waters2imzml: This script converts Waters raw data files to imzML format using ProteoWizard (through Docker). It takes a folder containing raw Waters datasets as input and converts each raw file to mzMLb format using ProteoWizard. Then, it extracts the x and y coordinates from the .inf file associated with each raw file and converts the mzMLb file to imzML format using pyteomics and pyimzml libraries.
+author: anamaria-uofg
 
 ## Requirements
 
