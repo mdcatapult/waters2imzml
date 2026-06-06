@@ -6,14 +6,6 @@ waters2imzml: This script converts Waters raw data files to imzML format using P
 
 author: anamaria-uofg
 
-## Requirements
-
-- Python==3.11.8
-- chardet==5.2.0
-- pyimzML==1.5.3
-- pyteomics==4.7.2
-- ProteoWizard (installed as a Docker container)
-
 ## Cite
 
 Nastase, A.M., waters2imzml, 10.5281/zenodo.13951708 
